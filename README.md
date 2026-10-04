@@ -75,6 +75,30 @@ I used Python to test each stakeholder claim against all 5,045 invoices from 202
 
 One finding surprised me. The Operations department actually had one of the *lowest* rates of PO problems (17.6%), even though the Operations Manager said his team sometimes skips them. Operations' real issue was approval speed, not POs. Checking claims against data is exactly where this kind of thing comes out.
 
+### How the analysis was done
+
+The full analysis is in [northbridge_data_analysis.ipynb](northbridge_data_analysis.ipynb). Two examples of the code behind the findings:
+
+**Finding duplicate payments:** the same supplier and invoice number paid more than once.
+
+```python
+key = ["supplier_id", "invoice_number"]
+extra = df[df.duplicated(subset=key, keep="first")]   # every payment after the first
+
+print(f"Invoices paid twice: {len(extra)}")
+print(f"Value paid twice: £{extra['invoice_amount_gbp'].sum():,.0f}")
+```
+
+**Comparing approvers fairly:** only matched invoices, so PO problems don't distort the result.
+
+```python
+matched = df[df["po_match_status"] == "Matched"]
+(matched.groupby("budget_holder_role")["days_to_approve"]
+        .mean()
+        .sort_values(ascending=False)
+        .round(1))
+```
+
 ## 6. Root causes
 
 1. **PO problems.** 28% of invoices, 57% of late payments, and 9 in 10 queries.
