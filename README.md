@@ -126,7 +126,7 @@ It would be delivered in three phases:
 
 Green notes show what changes. A new "Finance system" lane shows the work that moves from people to the system.
 
-![Northbridge Proposed approval process.drawio](northbridge_to_be_bpmn.png)
+![To-be process map](Northbridge%20Proposed%20approval%20process.drawio.png)
 
 ## 9. Requirements and testing
 
