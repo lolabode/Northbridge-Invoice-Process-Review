@@ -166,8 +166,5 @@ The £158,776 of duplicate payments is kept out of these figures on purpose. Blo
 | [northbridge_business_case.pdf](northbridge_business_case.pdf) | Business case for the Finance Director |
 | [northbridge-dashboard.html](northbridge-dashboard.html) | Interactive dashboard (download and open in a browser) |
 
-## About this project
-
-This is a self-directed portfolio project, built to practise the full business analysis cycle. The company, people and data are fictional. AI tools were used to help generate the simulated data, role-play stakeholder interviews and draft parts of the documents. The analysis, decisions and recommendations are my own.
 
 **Felicia Oyebode** · [LinkedIn](https://www.linkedin.com/in/felicia-oyebode-587353197/) · [Portfolio](https://lolabode.github.io)
