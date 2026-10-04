@@ -58,7 +58,7 @@ Hearing different sides mattered. AP saw managers as slow; the managers explaine
 
 The as-is map shows how invoices really move today, including the workarounds. Red notes mark the pain points raised in interviews.
 
-![As-is process map](northbridge_as_is_bpmn.png)
+![As-is process mapNorthbridge Current Approval.drawio.png)
 
 ## 5. What the data showed
 
