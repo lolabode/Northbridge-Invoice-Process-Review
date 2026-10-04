@@ -155,16 +155,14 @@ The £158,776 of duplicate payments is kept out of these figures on purpose. Blo
 
 | File | What it is |
 |---|---|
-| [project_brief.md](project_brief.md) | The brief from the Finance Director |
-| [northbridge_invoices_2025.csv](northbridge_invoices_2025.csv) | 5,045 simulated invoices |
 | [northbridge_interview_notes.pdf](northbridge_interview_notes.pdf) | Notes from all ten stakeholder interviews |
 | [northbridge_data_analysis.ipynb](northbridge_data_analysis.ipynb) | Python analysis and findings |
-| [northbridge_as_is_bpmn.png](northbridge_as_is_bpmn.png) / [.drawio](northbridge_as_is_bpmn.drawio) | Current process map |
-| [northbridge_to_be_bpmn.png](northbridge_to_be_bpmn.png) / [.drawio](northbridge_to_be_bpmn.drawio) | Improved process map |
+| [Northbridge Current Approval.drawio.png](Northbridge%20Current%20Approval.drawio.png) | Current process map |
+| [Northbridge Proposed approval process.drawio.png](Northbridge%20Proposed%20approval%20process.drawio.png) | Improved process map |
 | [northbridge_requirements.xlsx](northbridge_requirements.xlsx) | User stories, priorities and traceability |
 | [northbridge_uat_test_plan.xlsx](northbridge_uat_test_plan.xlsx) | UAT test cases |
 | [northbridge_business_case.pdf](northbridge_business_case.pdf) | Business case for the Finance Director |
-| [northbridge-dashboard.html](northbridge-dashboard.html) | Interactive dashboard (download and open in a browser) |
+| [Interactive dashboard](https://lolabode.github.io/northbridge-dashboard.html) | Opens the live dashboard in your browser |
 
 
 **Felicia Oyebode** · [LinkedIn](https://www.linkedin.com/in/felicia-oyebode-587353197/) · [Portfolio](https://lolabode.github.io)
